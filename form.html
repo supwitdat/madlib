@@ -1,0 +1,39 @@
+<h1>Fill out the form to create your story</h1>
+
+
+
+<form ng-controller='controller1'>
+<label for="adjective1">Adjective:</label>
+<input name="adjective1" type="text" placeholder="Adjective" ng-model="obj.one"></input>
+<br/>
+
+<label for="characterName">Name:</label>
+<input name="characterName" type="text" placeholder="Name" ng-model="obj.two"></input>
+<br/>
+
+<label for="pluralNoun">Noun Plural</label>
+<input name="pluralNoun" type="text" placeholder="Noun Plural" ng-model="obj.three"></input>
+<br/>
+
+<label for="pluralNoun2">Noun Plural</label>
+<input name="pluralNoun2" type="text" placeholder="Noun Plural" ng-model="obj.four"></input>
+<br/>
+
+<label for="adjective2">Adjective:</label>
+<input name="adjective2" type="text" placeholder="Adjective" ng-model="obj.five"></input>
+<br/>
+
+<label for="pluralNoun3">Noun Plural</label>
+<input name="pluralNoun3" type="text" placeholder="Noun Plural" ng-model="obj.six"></input>
+</br>
+
+<label for="verb">Verb</label>
+<input name="verb" type="text" placeholder="Verb" ng-model="obj.seven"></input>
+</br>
+
+<label for="adjective3">Adjective:</label>
+<input name="adjective3" type="text" placeholder="Adjective" ng-model="obj.eight"></input>
+<br/>
+
+<button type='button' ng-click="submit(object)">Submit</button>
+</form>
